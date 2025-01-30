@@ -6,6 +6,10 @@ def calculate_discount(price, discount_percent):
     else:
         return price
 
-final_price = calculate_discount(200, 10)
 
+# Question Two
+price = float(input("Enter the original price: "))
+discount_percent = float(input("Enter the percentage discount: "))
+
+final_price = calculate_discount(price, discount_percent)
 print(f"The final price is {final_price}")
